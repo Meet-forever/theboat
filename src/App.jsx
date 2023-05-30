@@ -317,7 +317,7 @@ function App() {
       onTouchMove={(e) => {}}
     >
       <Suspense fallback={<Html>Loading</Html>}>
-        <ScrollControls damping={0.3} pages={6}>
+        <ScrollControls damping={0.3} pages={6.5}>
             <Scene />
             {/* <OrbitControls  enableZoom={false} /> */}
           <Scroll>
